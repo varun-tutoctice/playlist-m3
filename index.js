@@ -2,24 +2,68 @@ const express = require("express");
 const axios = require("axios");
 const cheerio = require("cheerio");
 const bodyParser = require("body-parser");
+const youtubedl = require("youtube-dl-exec");
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get("/movie/videobin", async (req, res) => {
-  let url = req.query.url;
-  let urlVideobin = `https://videobin.co/embed-${url}.html`;
+  let id = req.query.id;
+  let urlVideobin = `https://videobin.co/embed-${id}.html`;
   axios.get(await scrapeData(urlVideobin));
   res.redirect(await scrapeData(urlVideobin));
 });
 
 app.get("/series/videobin", async (req, res) => {
-  let url = req.query.url;
-  let urlVideobin = `https://videobin.co/embed-${url}.html`;
+  let id = req.query.id;
+  let urlVideobin = `https://videobin.co/embed-${id}.html`;
   axios.get(await scrapeData(urlVideobin));
   res.redirect(await scrapeData(urlVideobin));
 });
+
+app.get("/movie/youtube", async (req, res) => {
+  let id = req.query.id;
+  let urlYoutube = `https://www.youtube.com/watch?v=${id}`;
+  youtubedl(urlYoutube, {
+    dumpSingleJson: true,
+    noWarnings: true,
+    noCallHome: true,
+    noCheckCertificate: true,
+    preferFreeFormats: true,
+    youtubeSkipDashManifest: true,
+    referer: "https://www.youtube.com",
+  }).then((output) => {
+    output.formats.forEach((data) => {
+      if (data.format == "22 - 1280x720 (720p)") {
+        res.redirect(data.url);
+      }
+    });
+  });
+});
+
+app.get("/live/youtube", async (req, res) => {
+  let id = req.query.id;
+  let urlYoutube = `https://www.youtube.com/watch?v=${id}`;
+  youtubedl(urlYoutube, {
+    dumpSingleJson: true,
+    noWarnings: true,
+    noCallHome: true,
+    noCheckCertificate: true,
+    preferFreeFormats: true,
+    youtubeSkipDashManifest: true,
+    referer: "https://www.youtube.com",
+  }).then((output) => {
+    output.formats.forEach((data) => {
+      if (data.height == 1080) {
+        res.redirect(data.manifest_url);
+      } else if (data.height == 720) {
+        res.redirect(data.manifest_url);
+      }
+    });
+  });
+});
+
 
 async function scrapeData(url) {
   try {
