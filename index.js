@@ -23,7 +23,7 @@ app.get("/series/videobin", async (req, res) => {
 app.get("/movie/youtube", async (req, res) => {
   let id = req.query.id;
   let urlYoutube = `https://www.youtube.com/watch?v=${id}`;
-  youtubedl(urlYoutube, {
+  youtubedl("https://www.youtube.com/watch?v=qBB_QOZNEdc", {
     dumpSingleJson: true,
     noWarnings: true,
     noCallHome: true,
@@ -69,9 +69,8 @@ async function scrapeData(url) {
     const $ = cheerio.load(body, { xmlMode: true });
     const data1 = cheerio.load($("script")._root[0].children[0].data);
     var str = data1("script:not([src])")[5].children[0].data;
-
-    var match = str.match(/https(.*)master.m3u8/)[0];
-   // console.log(str.match(/https(.*)master.m3u8/)[0].replace(",.urlset/master.m3u8","/index-v1-a1.m3u8"));
+    var match = str.match(/,"https:(.*)v.mp4/)[0].replace(',"',"");
+    console.log(match);
     return match;
   } catch (err) {
     console.error(err);
