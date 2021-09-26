@@ -55,9 +55,11 @@ app.get("/live/youtube", async (req, res) => {
   }).then((output) => {
     output.formats.forEach((data) => {
       if (data.height == 1080) {
-        res.redirect(data.manifest_url);
+        //console.log(data.manifest_url);
+        return res.redirect(data.manifest_url);
       } else if (data.height == 720) {
-        res.redirect(data.manifest_url);
+        //console.log(data.manifest_url);
+        return res.redirect(data.manifest_url);
       }
     });
   });
