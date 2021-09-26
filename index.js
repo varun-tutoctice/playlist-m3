@@ -11,19 +11,13 @@ app.use(bodyParser.json());
 app.get("/movie/videobin", async (req, res) => {
   let url = req.query.id;
   let urlVideobin = `https://videobin.co/embed-${url}.html`;
-  res.redirect(await scrapeDataM3U8(urlVideobin));
-});
-
-app.get("/movie/mp4", async (req, res) => {
-  let url = req.query.id;
-  let urlVideobin = `https://videobin.co/embed-${url}.html`;
-  res.redirect(await scrapeData(urlVideobin));
+  return res.redirect(await scrapeData(urlVideobin));
 });
 
 app.get("/series/videobin", async (req, res) => {
   let url = req.query.id;
   let urlVideobin = `https://videobin.co/embed-${url}.html`;
-  res.redirect(await scrapeData(urlVideobin));
+  return res.redirect(await scrapeData(urlVideobin));
 });
 
 
@@ -69,29 +63,20 @@ app.get("/live/youtube", async (req, res) => {
   });
 });
 
-
 async function scrapeData(url) {
   try {
     const body = await axios.get(url);
     const $ = cheerio.load(body, { xmlMode: true });
     const data1 = cheerio.load($("script")._root[0].children[0].data);
     var str = data1("script:not([src])")[5].children[0].data;
-    var match = str.match(/,"https:(.*)v.mp4/)[0].replace(',"',"");
-    return match;
-  } catch (err) {
-    console.error(err);
-  }
-}
-
-
-async function scrapeDataM3U8(url) {
-  try {
-    const body = await axios.get(url);
-    const $ = cheerio.load(body, { xmlMode: true });
-    const data1 = cheerio.load($("script")._root[0].children[0].data);
-    var str = data1("script:not([src])")[5].children[0].data;
-    var match = str.match(/https(.*)master.m3u8/)[0];
-    return match;
+    var sources = JSON.parse(str.match(/sources: (.*)v.mp4"]/)[0].replace("sources: ", ""));
+    var index;
+    if(sources.length == 2){
+      index = sources[0].replace("/hls/,","/hls/").replace(",.urlset/master.m3u8","/index-v1-a1.m3u8");
+    } else if (sources.length == 1) {
+      index = sources[0]
+    }
+    return index;
   } catch (err) {
     console.error(err);
   }

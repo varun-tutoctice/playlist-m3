@@ -1,0 +1,76 @@
+#EXTINF:-1 group-title="Telugu",TV9
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/live/youtube?id=II_m28Bm-iM
+#EXTINF:-1 group-title="Telugu",NTV
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/live/youtube?id=HUiHKse-YgM
+#EXTINF:-1 group-title="Telugu",Sakshi
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/live/youtube?id=8McTsOqeueE
+#EXTINF:-1 group-title="Telugu",ETV News
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/live/youtube?id=BsdRzy1cg1I
+#EXTINF:-1 group-title="Telugu",ABN News
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/live/youtube?id=IKj_cj51_W0
+#EXTINF:-1 group-title="Telugu",HMTV
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/live/youtube?id=qIY8IeluF9g
+#EXTINF:-1 group-title="Telugu",V6 News
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/live/youtube?id=bl9VaUaI0r0
+
+
+
+#EXTINF:-1 group-title="Telugu Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BODQ5NjU5MjItYzhkZS00ZjRlLWJiOTgtZjdmZWVlYjEyNmIwXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg",Ishq: Not a Love Story (2021)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/videobin/?id=mvavoertuxux
+#EXTINF:-1 group-title="Telugu Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjZhZGU3N2UtMzk0Ni00ZmJhLTg5NTQtM2QwMzUzYTc3MzQzXkEyXkFqcGdeQXVyMTI1NDAzMzM0._V1_.jpg",Kanabadutaledu (2021)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/videobin/?id=ipajj65jmxa5
+#EXTINF:-1 group-title="Telugu Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BM2ZmZDAyNjQtOWE1MC00NDEzLTg5YmYtNjRlOGU2MjI5YTRiXkEyXkFqcGdeQXVyOTc2MTgwNjY@._V1_.jpg",Radio Madhav (2021) 
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/videobin/?id=wyghmvtesn0k
+#EXTINF:-1 group-title="Telugu Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzhiYTk0ZDktNGNjOS00NThkLTk5NDEtNTZiZGE4NjlmNWFlXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg",Annabelle Sethupathi (2021)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/videobin/?id=yjp45vltmebm
+#EXTINF:-1 group-title="Telugu Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzQ4MWIwNTMtZWVlOS00YzMxLWE3ZjMtMWVjYjkwOGM5Nzg2XkEyXkFqcGdeQXVyMTI1NDAzMzM0._V1_.jpg",Gully Rowdy (2021)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/videobin/?id=r7ow1wiitqkk
+#EXTINF:-1 group-title="Telugu Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDI3ZjM0Y2EtZjRiMS00NDhmLThiMmYtZWJkN2E2Yjk3ZGRhXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg",Naduvan (2021)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/videobin/?id=yarylo3p2ltk
+#EXTINF:-1 group-title="Telugu Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BOGM0NDBlZTEtYTJhNy00YWZmLWJkZTItMGY0M2E0OTYyMjA0XkEyXkFqcGdeQXVyNzQ2NjI1NTQ@._V1_.jpg",Asmee (2021)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/videobin/?id=h350rnndy577
+#EXTINF:-1 group-title="Telugu Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDE5ZjI5YmMtNDU2MS00NjdhLWFhNmQtZDZkZjk2ZGI4NTVkXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg",Paagal (2021)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/videobin/?id=kwxh0cc4kc78
+#EXTINF:-1 group-title="Telugu Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDFmNDk3MWMtMDY0NS00ZGFmLTlkYTUtNmUwYTU4YzllNTNhXkEyXkFqcGdeQXVyNTgxODY5ODI@._V1_.jpg",Love Story (2021)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movievideobin/?id=5quyipp9zeot
+#EXTINF:-1 group-title="Telugu Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzQxYzNkMzAtMjJmNS00MjE1LWI3ZTYtMjg4OGE2ZWFjMmRjXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg",Thalaivii (2021)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/videobin/?id=imblpbffizti
+
+
+
+
+
+
+#EXTINF:-1 group-title="Telugu" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDNhYTk2ODEtMzU3ZC00ODZjLWJlOTctNWNlYTY1NjJmNWM4XkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg",Unheard (2021)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/series/videobin/?id=jrsnqn8x50zq
+#EXTINF:-1 group-title="Telugu" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGUwY2I5ZDAtNDkxNi00YmZlLTllMzYtMGJiNjFhZjk0MDA2XkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg",Crime Stories: India Detectives (2021) E01-E04
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/series/videobin/?id=j207qbu6yoq6
+#EXTINF:-1 group-title="Telugu" tvg-logo="https://m.media-amazon.com/images/M/MV5BYmY1YzYzNTMtZDRlZS00Y2ZkLTg0NjctOTg1NjM1ZTViYWIwXkEyXkFqcGdeQXVyMTIzMzg0MTM2._V1_.jpg",Net (2021)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/series/videobin/?id=lu7pgb6xdwdy
+#EXTINF:-1 group-title="Telugu" tvg-logo="https://m.media-amazon.com/images/M/MV5BYjMxMzUxMDgtNGViYy00NTE2LWFlN2YtZmY4YzQ2NDcyYTI0XkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg",The Baker and the Beauty (2021)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/series/videobin/?id=sg0kmsfytpqy
+#EXTINF:-1 group-title="Telugu" tvg-logo="https://m.media-amazon.com/images/M/MV5BMzRjZWVmMzItNTdmYS00OWEzLTgyOGUtNThiNTU2ZThlYjY0XkEyXkFqcGdeQXVyMTIxMDk2NDE4._V1_FMjpg_UX1000_.jpg",The Family Man (2021)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/series/videobin/?id=hj6ajaa2r7n6
+
+
+#EXTINF:-1 group-title="Bigg Boss Telugu" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDc4MTI2OGYtMTNhOC00MzkyLTg0NmItNWU4NjY2ZTMxZTY3XkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg",Day 20 (9/22)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/series/videobin/?id=oz180ok9v0bh
+#EXTINF:-1 group-title="Bigg Boss Telugu" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDc4MTI2OGYtMTNhOC00MzkyLTg0NmItNWU4NjY2ZTMxZTY3XkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg",Day 19 (9/22)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/series/videobin/?id=lbygtlz7ds6k
+#EXTINF:-1 group-title="Bigg Boss Telugu" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDc4MTI2OGYtMTNhOC00MzkyLTg0NmItNWU4NjY2ZTMxZTY3XkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg",Day 18 (9/22)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/series/videobin/?id=yn38ecof9iwy
+#EXTINF:-1 group-title="Bigg Boss Telugu" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDc4MTI2OGYtMTNhOC00MzkyLTg0NmItNWU4NjY2ZTMxZTY3XkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg",Day 17 (9/22)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/series/videobin/?id=bziicgvfl80y
+#EXTINF:-1 group-title="Bigg Boss Telugu" tvg-logo="https://m.media-amazon.com/images/M/MV5BNDc4MTI2OGYtMTNhOC00MzkyLTg0NmItNWU4NjY2ZTMxZTY3XkEyXkFqcGdeQXVyODAzNzAwOTU@._V1_.jpg",Day 16 (9/21)
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/series/videobin/?id=0l3ij6srsvcq
+
+
+#EXTINF:-1 group-title="Columbia" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/71yuyn56fZL.jpg",Baby Shark
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/videobin/?id=0zxt0b8vj7qa
+#EXTINF:-1 group-title="Columbia" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGM5Zjg0MzktYmZmZC00OWU5LTgzZDQtODM1NjdjMGE4ZDVlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",Alvin And The Chipmunks You Are My Home
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/videobin/?id=huj9vw1e5c5n
+#EXTINF:-1 group-title="Columbia" tvg-logo="https://i.pinimg.com/originals/61/b3/aa/61b3aa0c8fac8e508dcada72f7f41840.jpg",Happy Birthday
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/videobin/?id=4twvt2guikcv
+
+
+
