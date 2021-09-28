@@ -44,7 +44,7 @@ app.get("/movie/youtube", async (req, res) => {
   }).then((output) => {
     output.formats.forEach((data) => {
       if (data.format == "22 - 1280x720 (720p)") {
-        return res.redirect(data.url);
+        res.redirect(data.url);
       }
     });
   });
@@ -124,16 +124,6 @@ async function scrapeOkru(url) {
   } catch (err) {
     console.error(err);
   }
-}
-
-async function oneTransitionMergeVideos(videoURL, audioURL) {
-  const videos = glob.sync(videoURL);
-  var output = "finalVideo.mp4"
-  await concat({
-    output,
-    videos,
-    audio: audioURL,
-  });
 }
 
 app.listen(3000, () => console.log("Example app is listening on port 3000."));
