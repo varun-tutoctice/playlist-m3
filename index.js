@@ -41,11 +41,8 @@ app.get("/movie/youtube", async (req, res) => {
     youtubeSkipDashManifest: true,
     referer: "https://www.youtube.com",
   }).then((output) => {
-    output.formats.forEach((data) => {
-      if (data.format == "22 - 1280x720 (720p)") {
-        res.redirect(data.url);
-      }
-    });
+    var length = output.formats.length;
+    return res.redirect(output.formats[length - 1].url);
   });
 });
 

@@ -15,11 +15,6 @@ http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/live/youtube?id=bl9VaUaI0
 
 
 
-#EXTINF:-1 group-title="NFL",NFL Redzone 1
-https://f3a3a2adb5bd.us-east-1.playback.live-video.net/api/video/v1/us-east-1.173782939089.channel.RZNtyD6S92bn.m3u8
-#EXTINF:-1 group-title="NFL",NFL Redzone 2
-https://vsd112.mycdn.me:443/hls/1550873266752.m3u8/sig/L1CpiUtanbQ/expires/1632769625695/srcIp/71.127.147.225/clientType/0/srcAg/CHROME_ANDROID/mid/2504235163200/1550873266752_high/index.m3u8
-
 
 
 #EXTINF:-1 group-title="Telugu Movies" tvg-logo="https://m.media-amazon.com/images/M/MV5BODQ5NjU5MjItYzhkZS00ZjRlLWJiOTgtZjdmZWVlYjEyNmIwXkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg",Ishq: Not a Love Story (2021)
@@ -71,29 +66,18 @@ http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/series/videobin/?id=bziic
 http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/series/videobin/?id=0l3ij6srsvcq
 
 
-#EXTINF:-1 group-title="Columbia" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/71yuyn56fZL.jpg",Baby Shark
-http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/videobin/?id=0zxt0b8vj7qa
-#EXTINF:-1 group-title="Columbia" tvg-logo="https://m.media-amazon.com/images/M/MV5BMGM5Zjg0MzktYmZmZC00OWU5LTgzZDQtODM1NjdjMGE4ZDVlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",Alvin And The Chipmunks You Are My Home
-http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/videobin/?id=huj9vw1e5c5n
-#EXTINF:-1 group-title="Columbia" tvg-logo="https://i.pinimg.com/originals/61/b3/aa/61b3aa0c8fac8e508dcada72f7f41840.jpg",Happy Birthday
-http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/videobin/?id=4twvt2guikcv
 
 
-
-#EXTINF:-1 group-title="Columbia",Baby Shark Birthday Song
-https://www.youtube.com/watch?v=k7omCnbGwpw
-#EXTINF:-1 group-title="Columbia",TROLLS WORLD TOUR
-https://www.youtube.com/watch?v=DoJtK7upCdg
-#EXTINF:-1 group-title="Columbia",Hakuna Matata (No Worries)
-https://www.youtube.com/watch?v=mzABW42AIhM
-#EXTINF:-1 group-title="Columbia",Let It Go from Disney's FROZEN 
-https://www.youtube.com/watch?v=iEKLFS-aKcw
-#EXTINF:-1 group-title="Columbia",Boss Baby Savage Love
-https://www.youtube.com/watch?v=IPCQeleWyCU
-#EXTINF:-1 group-title="Columbia",Crazy Frog - Axel F
-https://www.youtube.com/watch?v=k85mRPqvMbE
-#EXTINF:-1 group-title="Columbia",El Chombo - Dame Tu Cosita
-https://www.youtube.com/watch?v=FzG4uDgje3M
+#EXTINF:-1 group-title="Columbia" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/71Cb7oS1cuL.jpg",Baby Shark Birthday Song
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/youtube/?id=k7omCnbGwpw
+#EXTINF:-1 group-title="Columbia" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/618uUFCzMQL.jpg",Hakuna Matata
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/youtube/?id=mzABW42AIhM
+#EXTINF:-1 group-title="Columbia" tvg-logo="https://i.ytimg.com/vi/KyBYuEgvFl0/maxresdefault.jpg",Baby Car
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/youtube/?id=KyBYuEgvFl0
+#EXTINF:-1 group-title="Columbia" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0e/The_Boss_Baby_poster.jpg",Boss Baby
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/youtube/?id=8YRoVPMxcI8
+#EXTINF:-1 group-title="Columbia" tvg-logo="https://i.pinimg.com/originals/4f/e0/5c/4fe05c0a2d170a2261e6501618f913bd.png",Frozen Let it Go
+http://ec2-18-204-230-173.compute-1.amazonaws.com:3000/movie/youtube/?id=L0MK7qz13bU
 
 
 
