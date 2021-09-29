@@ -20,6 +20,12 @@ app.get("/series/videobin", async (req, res) => {
   return res.redirect(await scrapeData(urlVideobin));
 });
 
+app.get("/drive", async (req, res) => {
+  let id = req.query.id;
+  let urlVideobin = `https://drive.google.com/uc?export=download&id=${id}`;
+  return res.redirect(urlVideobin);
+});
+
 app.get("/nfl", async (req, res) => {
   let url = req.query.id;
   //  let urlVideobin = `http://www.tv247.online/tv/game.php?game=nfl`;
